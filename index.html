@@ -164,7 +164,7 @@
         <button class="btn" id="koBtn" type="button">한국어</button>
         <button class="btn secondary" id="enBtn" type="button">English</button>
       </div>
-      <span class="badge"><span class="dot"></span>검색/AI 인용 최적화(요약·FAQ·구조화데이터 포함)</span>
+
     </div>
   </header>
 
@@ -309,24 +309,29 @@
   const en = document.getElementById('en');
   const koBtn = document.getElementById('koBtn');
   const enBtn = document.getElementById('enBtn');
-  
+
   function show(lang){
-    if(lang === 'en'){ en.classList.remove('hidden'); ko.classList.add('hidden'); }
-    else { ko.classList.remove('hidden'); en.classList.add('hidden'); }
+    if (!ko || !en) return;
+    if(lang === 'en'){
+      en.classList.remove('hidden');
+      ko.classList.add('hidden');
+    } else {
+      ko.classList.remove('hidden');
+      en.classList.add('hidden');
+    }
     try { history.replaceState(null, '', '#' + lang); } catch(e) {}
   }
-  koBtn.addEventListener('click', () => show('ko'));
-  enBtn.addEventListener('click', () => show('en'));
 
-  // Load hash
+  if (koBtn) koBtn.addEventListener('click', () => show('ko'));
+  if (enBtn) enBtn.addEventListener('click', () => show('en'));
+
+  // URL에 #en 이 붙어있으면 영어로 시작
   const hash = (location.hash || '').replace('#','');
   if(hash === 'en') show('en');
-
-  
-  });
 </script>
 </body>
 </html>
+
 
 
 
