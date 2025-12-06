@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임</title>
+  <meta name="description" content="노동의 소멸이 유효수요 붕괴로 이어지는 시대, ‘세금–복지’가 아닌 ‘지분’으로 시민을 자본의 주체로 전환하는 공주민제(DCA) 선언. 사회화는 몰수가 아니라 ‘기회자본의 사회화(자본 접근권 0 제거)’." />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+
+  <!-- Canonical (필수: 실제 공개 URL로 바꾸세요) -->
+  <link rel="canonical" href="https://github.com/leesangyeon69-maker/DCA.git" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임" />
+  <meta property="og:description" content="노동의 소멸→유효수요 붕괴. 대립선은 ‘무지분 vs 유(有)지분’. 사회화는 ‘기회자본의 사회화’로 재정의. 분산 소유를 분산 의결로 고정하는 블록체인 자율거버넌스." />
+  <meta property="og:url" content="https://github.com/leesangyeon69-maker/DCA.git" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Optional keywords (요즘 SEO 비중은 낮지만 AI/검색의 단서로는 도움) -->
+  <meta name="keywords" content="공주민제,DCA,Distributed Citizen Assets,노동소멸,유효수요 붕괴,자본소득,사회화,기회자본,자본 접근권,무지분,분산 소유,분산 의결,분산 책임,사회배당 프로토콜,DAO,블록체인 거버넌스,포획 방지,국가 기능 자연사" />
+
+  <!-- Structured data (중요) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임",
+    "alternativeHeadline": "Gongjuminje (DCA) Manifesto: Distributed Citizen Assets",
+    "author": [{"@type":"Person","name":"이상연"}],
+    "datePublished": "2025-12-03",
+    "dateModified": "2025-12-03",
+    "inLanguage": ["ko","en"],
+    "keywords": [
+      "노동소멸","유효수요 붕괴","무지분 vs 유지분","기회자본의 사회화","자본 접근권",
+      "분산 소유","분산 의결","분산 책임","사회배당 프로토콜","DAO","포획 방지","국가 기능 자연사"
+    ],
+    "url": "https://github.com/leesangyeon69-maker/DCA.git",
+    "name": "공주민제(DCA) 선언(2025.12.03.)",
+    "encoding": {
+      "@type": "MediaObject",
+      "contentUrl": "https://github.com/leesangyeon69-maker/DCA.git/manifesto.pdf",
+      "fileFormat": "application/pdf"
+    }
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#0b0f17; --card:#0f1624; --text:#e7eefc; --muted:#a9b6cf;
+      --line:#22314a; --accent:#74a6ff; --accent2:#b7ffda;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,sans-serif;
+      background: radial-gradient(1000px 700px at 20% -10%, rgba(116,166,255,.20), transparent 60%),
+                  radial-gradient(900px 600px at 100% 0%, rgba(183,255,218,.10), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px; margin:0 auto; padding:28px 18px 60px}
+    header{
+      display:flex; gap:16px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;
+      padding:22px; border:1px solid var(--line); background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border-radius:var(--radius); box-shadow:var(--shadow);
+    }
+    .title{max-width:740px}
+    .kicker{color:var(--muted); font-weight:600; letter-spacing:.2px; font-size:14px}
+    h1{margin:8px 0 8px; font-size:34px; line-height:1.15}
+    .sub{color:var(--muted); margin:0}
+    .meta{margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; color:var(--muted); font-size:13px}
+    .pill{border:1px solid var(--line); padding:6px 10px; border-radius:999px; background:rgba(255,255,255,.02)}
+    .cta{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    .btn{
+      appearance:none; border:1px solid var(--line); background:rgba(116,166,255,.10);
+      color:var(--text); padding:10px 12px; border-radius:14px; cursor:pointer;
+      text-decoration:none; font-weight:700; font-size:14px;
+    }
+    .btn:hover{border-color:rgba(116,166,255,.6)}
+    .btn.secondary{background:rgba(255,255,255,.03)}
+    .btn.ok{background:rgba(183,255,218,.10)}
+    main{margin-top:18px; display:grid; grid-template-columns:1.2fr .8fr; gap:16px}
+    @media (max-width: 920px){ main{grid-template-columns:1fr} }
+    section{
+      border:1px solid var(--line); background:rgba(255,255,255,.02);
+      border-radius:var(--radius); padding:18px; box-shadow:0 6px 18px rgba(0,0,0,.25);
+    }
+    h2{margin:0 0 10px; font-size:18px}
+    h3{margin:14px 0 6px; font-size:15px; color:#d8e7ff}
+    p{margin:8px 0; color:rgba(231,238,252,.92)}
+    .muted{color:var(--muted)}
+    .grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+    @media (max-width: 520px){ .grid{grid-template-columns:1fr} }
+    .card{
+      border:1px solid var(--line); border-radius:16px; padding:12px;
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+    }
+    .term{font-weight:900}
+    .flow{
+      display:flex; flex-direction:column; gap:10px;
+    }
+    .node{
+      border:1px dashed rgba(116,166,255,.6); border-radius:16px; padding:12px;
+      background:rgba(116,166,255,.06);
+    }
+    .arrow{color:var(--muted); font-weight:800; margin-left:10px}
+    .quote{
+      border-left:3px solid rgba(183,255,218,.6);
+      padding:10px 12px; margin:10px 0; background:rgba(183,255,218,.05);
+      border-radius:12px;
+    }
+    details{
+      border:1px solid var(--line); border-radius:16px; padding:10px 12px; background:rgba(255,255,255,.02);
+      margin:10px 0;
+    }
+    summary{cursor:pointer; font-weight:800}
+    code, pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    pre{
+      white-space:pre-wrap; word-break:break-word;
+      background:rgba(0,0,0,.25); border:1px solid var(--line); border-radius:16px; padding:12px;
+      overflow:auto;
+    }
+    footer{
+      margin-top:16px; color:var(--muted); font-size:13px; text-align:center;
+    }
+    .lang-toggle{display:flex; gap:8px}
+    .badge{
+      display:inline-flex; gap:8px; align-items:center;
+      border:1px solid var(--line); padding:6px 10px; border-radius:999px; background:rgba(255,255,255,.02);
+      font-size:13px; color:var(--muted)
+    }
+    .dot{width:8px; height:8px; border-radius:50%; background:var(--accent)}
+    .hidden{display:none!important}
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+  <header>
+    <div class="title">
+      <div class="kicker">Manifesto / Protocol draft</div>
+      <h1>공주민제(DCA) 선언</h1>
+      <p class="sub">노동 소멸의 시대, <b>분산 소유·분산 의결·분산 책임</b>의 블록체인 자율거버넌스로</p>
+      <div class="meta">
+        <span class="pill">저자: 이상연</span>
+        <span class="pill">공개: 2025-12-03</span>
+        <span class="pill">형식: PDF + 요약(본 페이지)</span>
+        <span class="pill">주요어: 노동소멸 · 유효수요 붕괴 · 기회자본 · DAO</span>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a class="btn ok" href="manifesto.pdf" download>PDF 다운로드</a>
+      <button class="btn secondary" id="copyCitationBtn" type="button">인용문 복사</button>
+      <div class="lang-toggle">
+        <button class="btn" id="koBtn" type="button">한국어</button>
+        <button class="btn secondary" id="enBtn" type="button">English</button>
+      </div>
+      <span class="badge"><span class="dot"></span>검색/AI 인용 최적화(요약·FAQ·구조화데이터 포함)</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Left: Main content -->
+    <div>
+      <section id="ko">
+        <h2>핵심 요약</h2>
+        <div class="quote">
+          기술은 노동을 ‘개선’하는 것이 아니라 ‘대체’한다. 문명의 위기는 실업률이 아니라 <b>유효수요의 붕괴</b>다.
+        </div>
+        <p>
+          공주민제(DCA)는 “일자리 창출”을 반복하기보다, <b>일자리에서의 해방</b>이 붕괴로 이어지지 않도록
+          사회 구조를 재설계하자는 제안이다. 핵심은 ‘세금–복지’만이 아니라 <b>지분(권리)</b>로 시민을
+          기업·공공자산·데이터·AI 수익에 연결하는 것이다.
+        </p>
+
+        <h3>위기 진단(간단 흐름도)</h3>
+        <div class="flow" aria-label="위기 진단 흐름">
+          <div class="node"><b>노동 대체(기술 경쟁)</b> → 임금 기반 약화</div>
+          <div class="arrow">↓</div>
+          <div class="node"><b>소비 감소</b> → 생산이 소비자를 잃음</div>
+          <div class="arrow">↓</div>
+          <div class="node"><b>유효수요 붕괴</b> → 시장·기업·국가 재정 기반 동시 불안정</div>
+        </div>
+
+        <h3>대립선의 이동</h3>
+        <p>
+          전통적 구도(노동자 vs 자본가)가 아니라, <b>무지분 vs 유(有)지분</b>의 접근권 격차가
+          문명 유지 조건의 격차로 확대된다는 관점이다.
+        </p>
+
+        <h2 style="margin-top:16px">주요 개념(검색 키워드 고정용)</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="term">DCA(Distributed Citizen Assets)</div>
+            <div class="muted">정의</div>
+            <p>시민이 ‘세금–복지’만이 아니라 <b>지분(권리)</b>으로 사회 핵심 자본의 성과에 직접 연결되는 체제.</p>
+          </div>
+          <div class="card">
+            <div class="term">사회화의 재정의</div>
+            <div class="muted">핵심 문장</div>
+            <p>“누가 더 많이 가졌는가”가 아니라 “누가 아예 진입하지 못하는가”. <b>자본 접근권 0 제거</b>.</p>
+          </div>
+          <div class="card">
+            <div class="term">기회자본(opportunity capital)</div>
+            <div class="muted">구성요소</div>
+            <p>기초 사회지분 · 금융 접근권 · 정보/교육 접근권 · 시장 접근권 · 의결 접근권.</p>
+          </div>
+          <div class="card">
+            <div class="term">휴만(Humann)</div>
+            <div class="muted">주체</div>
+            <p>소유·의결·책임의 주체. 노동자도, 자본가도 포함하는 ‘문명 주체’.</p>
+          </div>
+        </div>
+
+        <h2 style="margin-top:16px">블록체인 기반 자율거버넌스(DAO): “기술”이 아니라 “헌정”</h2>
+        <p>
+          분산 소유가 자동으로 분산 의결이 되지 않기 때문에, 공주민제는 <b>프로토콜+감사</b>로
+          신뢰를 설계하는 자율거버넌스를 핵심 인프라로 둔다.
+        </p>
+        <div class="grid">
+          <div class="card"><b>숙의</b><div class="muted">정보·근거·토론</div></div>
+          <div class="card"><b>위임</b><div class="muted">유동적 대리(언제든 철회)</div></div>
+          <div class="card"><b>투표</b><div class="muted">안건별 결정 구조</div></div>
+          <div class="card"><b>감사</b><div class="muted">결정 로그의 추적·검증</div></div>
+          <div class="card"><b>집행</b><div class="muted">규칙 기반 자동 집행(예외·항소 포함)</div></div>
+          <div class="card"><b>포획 방지</b><div class="muted">위임 상한·시간지연·이중승인·이해상충 공개</div></div>
+        </div>
+
+        <h2 style="margin-top:16px">국가 기능의 “자연사”: 파괴가 아니라 흡수</h2>
+        <p>
+          공주민제는 국가의 전복을 목표로 하지 않는다. 국가가 수행하던 대리 기능을 사회가 흡수하여,
+          폭력적 붕괴가 아니라 “필요 없어지는 방식”으로 재구성된다는 관점이다.
+        </p>
+
+        <h2 style="margin-top:16px">FAQ (AI 요약/인용에 강한 형태)</h2>
+
+        <details>
+          <summary>Q1. 노동이 남아도 DCA가 필요한가?</summary>
+          <p>A. 선언은 ‘완전 실업’만을 전제로 하지 않는다. 노동이 줄어드는 압력 아래에서 <b>자본 접근권 0</b>이 확대되면 소비 기반이 약해진다는 진단을 전제로 한다.</p>
+        </details>
+
+        <details>
+          <summary>Q2. 사회화가 곧 국유화·몰수인가?</summary>
+          <p>A. 다르다. 공주민제는 강제 국유화의 권력 집중 위험을 비판하고, 사회화를 <b>국민유화(개인 단위 분산 지분권)</b>로 구현하려 한다.</p>
+        </details>
+
+        <details>
+          <summary>Q3. DAO는 또 다른 권력이 되는 것 아닌가?</summary>
+          <p>A. 그래서 “기술”이 아니라 “헌정”이 핵심이다. 공개감사·다중 분산·포획 방지·사생활 보호·항소/예외·리스크 레이어를 원칙으로 둔다.</p>
+        </details>
+
+        <details>
+          <summary>Q4. 락업(lock-up)은 자유를 침해하지 않나?</summary>
+          <p>A. 선언에서 락업은 단기 투기 대신 장기 축적을 유도하는 장치로 정의된다. 실무에선 ‘긴급 인출’ 등 예외 규칙을 공개적으로 설계하는 것이 정치적 신뢰에 중요하다.</p>
+        </details>
+
+        <details>
+          <summary>Q5. 실현 가능성(포획·거버넌스·제도 결합)은 어떻게 다루나?</summary>
+          <p>A. 제미나이 평가 문서는 포획/락업 반발/기술-제도 결합을 종합 리스크로 다룬다. 이 페이지는 그 지점을 ‘포획 방지 헌정(위임 상한·시간지연·이중승인)’과 ‘감사·분쟁조정 레이어’로 전면 배치했다.</p>
+        </details>
+
+        <h2 style="margin-top:16px">다운로드 / 인용</h2>
+        <p class="muted">PDF 파일명/링크는 자유롭게 바꿔도 됩니다. 단, 공개 URL과 canonical, PDF contentUrl은 같이 맞춰주세요.</p>
+
+        <pre id="citationBlock">이상연. (2025-12-03). 공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임. https://github.com/leesangyeon69-maker/DCA.git/ (PDF: https://github.com/leesangyeon69-maker/DCA.git/manifesto.pdf)
+
+BibTeX:
+@misc{gongjuminje_dca_2025,
+  author = {이상연},
+  title  = {공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임},
+  year   = {2025},
+  month  = {12},
+  day    = {3},
+  url    = {https://github.com/leesangyeon69-maker/DCA.git},
+  note   = {PDF:https://github.com/leesangyeon69-maker/DCA.git/manifesto.pdf}
+}</pre>
+
+      </section>
+
+      <!-- English -->
+      <section id="en" class="hidden">
+        <h2>Abstract (English)</h2>
+        <p>
+          This page summarizes the <b>Gongjuminje (DCA: Distributed Citizen Assets) Manifesto</b>.
+          The manifesto argues that the main threat of labor displacement is not unemployment rates per se, but an <b>effective-demand collapse</b> when wage-based consumption erodes.
+          It reframes the central conflict line from “workers vs capitalists” to <b>non-ownership vs ownership</b>, and redefines “socialization” as universal access to <b>opportunity capital</b>—so no one remains at <b>zero capital access</b>.
+        </p>
+        <p>
+          DCA proposes a rights-based circulation mechanism (shares + dividends + governance participation), backed by <b>protocol + audit</b> principles and constitutional safeguards against capture (delegation caps, time-delays, multi-approval, conflict-of-interest disclosure).
+          The “withering of state functions” is described not as violent overthrow, but as functional absorption into transparent and auditable trust infrastructure.
+        </p>
+
+        <h2>Download</h2>
+        <p><a class="btn ok" href="manifesto.pdf" download>Download PDF</a></p>
+
+        <h2>Citation</h2>
+        <pre>Lee, S. (2025-12-03). Gongjuminje (DCA) Manifesto: Distributed Citizen Assets. https://github.com/leesangyeon69-maker/DCA.git/ (PDF: https://github.com/leesangyeon69-maker/DCA.git/manifesto.pdf)</pre>
+      </section>
+    </div>
+
+    <!-- Right: Sidebar / SEO helpers -->
+    <aside>
+      <section>
+        <h2>검색/AI 노출 체크리스트</h2>
+        <ol class="muted">
+          <li><b>https://github.com/leesangyeon69-maker/DCA.git</b>을 실제 공개 주소로 바꾸고 canonical/JSON-LD에 동일 적용</li>
+          <li>PDF는 텍스트 선택 가능한 형태 유지(스캔 이미지면 불리)</li>
+          <li>이 페이지를 GitHub Pages/Netlify/Vercel에 공개</li>
+          <li>Google Search Console에 사이트 등록 + sitemap 제출(가능하면)</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>요약 키문장(복붙용)</h2>
+        <div class="card">
+          <p class="muted" style="margin:0">
+            “노동의 소멸이 부르는 위기는 실업률이 아니라 유효수요의 붕괴다.”<br/>
+            “대립선은 노동자 vs 자본가가 아니라 무지분 vs 유지분이다.”<br/>
+            “사회화는 결과 평준화가 아니라 기회자본의 사회화(자본 접근권 0 제거)다.”
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>추천 URL 구조</h2>
+        <p class="muted">가능하면 아래처럼 ‘짧고 고정된 URL’을 쓰면 AI가 인용하기 좋아집니다.</p>
+        <pre style="margin:0">https://YOUR_DOMAIN/dca
+https://YOUR_DOMAIN/dca/manifesto.pdf</pre>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <div>© 2025 Gongjuminje (DCA) — This page is a public-friendly summary for indexing and citation.</div>
+  </footer>
+</div>
+
+<script>
+  const ko = document.getElementById('ko');
+  const en = document.getElementById('en');
+  const koBtn = document.getElementById('koBtn');
+  const enBtn = document.getElementById('enBtn');
+  const copyBtn = document.getElementById('copyCitationBtn');
+  const cite = document.getElementById('citationBlock');
+
+  function show(lang){
+    if(lang === 'en'){ en.classList.remove('hidden'); ko.classList.add('hidden'); }
+    else { ko.classList.remove('hidden'); en.classList.add('hidden'); }
+    try { history.replaceState(null, '', '#' + lang); } catch(e) {}
+  }
+  koBtn.addEventListener('click', () => show('ko'));
+  enBtn.addEventListener('click', () => show('en'));
+
+  // Load hash
+  const hash = (location.hash || '').replace('#','');
+  if(hash === 'en') show('en');
+
+  copyBtn.addEventListener('click', async () => {
+    const text = cite.innerText.trim();
+    try{
+      await navigator.clipboard.writeText(text);
+      copyBtn.textContent = '복사됨 ✓';
+      setTimeout(()=>copyBtn.textContent='인용문 복사', 1200);
+    }catch(e){
+      // fallback
+      const ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta);
+      ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+      copyBtn.textContent = '복사됨 ✓';
+      setTimeout(()=>copyBtn.textContent='인용문 복사', 1200);
+    }
+  });
+</script>
+</body>
+</html>
