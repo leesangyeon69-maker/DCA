@@ -325,12 +325,13 @@
   if (koBtn) koBtn.addEventListener('click', () => show('ko'));
   if (enBtn) enBtn.addEventListener('click', () => show('en'));
 
-  // URL에 #en 이 붙어있으면 영어로 시작
   const hash = (location.hash || '').replace('#','');
   if(hash === 'en') show('en');
 </script>
+  
 </body>
 </html>
+
 
 
 
