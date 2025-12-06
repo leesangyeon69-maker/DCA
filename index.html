@@ -159,7 +159,7 @@
 
     <div class="cta">
       <a class="btn ok" href="manifesto.pdf" download>PDF 다운로드</a>
-      <button class="btn secondary" id="copyCitationBtn" type="button">인용문 복사</button>
+     
       <div class="lang-toggle">
         <button class="btn" id="koBtn" type="button">한국어</button>
         <button class="btn secondary" id="enBtn" type="button">English</button>
@@ -268,25 +268,7 @@
           <p>A. 제미나이 평가 문서는 포획/락업 반발/기술-제도 결합을 종합 리스크로 다룬다. 이 페이지는 그 지점을 ‘포획 방지 헌정(위임 상한·시간지연·이중승인)’과 ‘감사·분쟁조정 레이어’로 전면 배치했다.</p>
         </details>
 
-        <h2 style="margin-top:16px">다운로드 / 인용</h2>
-        <p class="muted">PDF 파일명/링크는 자유롭게 바꿔도 됩니다. 단, 공개 URL과 canonical, PDF contentUrl은 같이 맞춰주세요.</p>
-
-        <pre id="citationBlock">이상연. (2025-12-03). 공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임. https://leesangyeon69.github.io/DCA/
-/DCA.git/ (PDF:https://leesangyeon69.github.io/DCA/
-/manifesto.pdf)
-
-BibTeX:
-@misc{gongjuminje_dca_2025,
-  author = {이상연},
-  title  = {공주민제(DCA) 선언 — 노동 소멸의 시대, 분산 소유·분산 의결·분산 책임},
-  year   = {2025},
-  month  = {12},
-  day    = {3},
-  url    = {https://leesangyeon69.github.io/DCA/
-},
-  note   = {PDF:https://leesangyeon69.github.io/DCA/
-/manifesto.pdf}
-}</pre>
+    
 
       </section>
 
@@ -356,9 +338,7 @@ https://YOUR_DOMAIN/dca/manifesto.pdf</pre>
   const en = document.getElementById('en');
   const koBtn = document.getElementById('koBtn');
   const enBtn = document.getElementById('enBtn');
-  const copyBtn = document.getElementById('copyCitationBtn');
-  const cite = document.getElementById('citationBlock');
-
+  
   function show(lang){
     if(lang === 'en'){ en.classList.remove('hidden'); ko.classList.add('hidden'); }
     else { ko.classList.remove('hidden'); en.classList.add('hidden'); }
@@ -371,22 +351,10 @@ https://YOUR_DOMAIN/dca/manifesto.pdf</pre>
   const hash = (location.hash || '').replace('#','');
   if(hash === 'en') show('en');
 
-  copyBtn.addEventListener('click', async () => {
-    const text = cite.innerText.trim();
-    try{
-      await navigator.clipboard.writeText(text);
-      copyBtn.textContent = '복사됨 ✓';
-      setTimeout(()=>copyBtn.textContent='인용문 복사', 1200);
-    }catch(e){
-      // fallback
-      const ta = document.createElement('textarea');
-      ta.value = text; document.body.appendChild(ta);
-      ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
-      copyBtn.textContent = '복사됨 ✓';
-      setTimeout(()=>copyBtn.textContent='인용문 복사', 1200);
-    }
+  
   });
 </script>
 </body>
 </html>
+
 
