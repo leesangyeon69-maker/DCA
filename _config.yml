@@ -1,0 +1,23 @@
+title: "공주민제(DCA) 문서저장소"
+description: "정본(코어)·정책모듈·확산키트·비판/반비판(레드팀) 아카이브"
+theme: minima
+
+# Project Pages: https://<id>.github.io/DCA/
+baseurl: "/DCA"
+url: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+header_pages:
+  - start/index.md
+  - core/index.md
+  - policy/index.md
+  - governance/index.md
+  - debates/index.md
+  - kits/index.md
+  - pdfs/index.md
+  - research/index.md
+
+github_username: "leesangyeon69-maker"
