@@ -3,7 +3,4 @@ layout: page
 title: "media"
 ---
 
-- 1p 요약
-- Q&A 10개
-- 채택용 MVP
-- 관련 링크: /policy/, /governance/, /debates/point_by_point/
+1쪽 요약·Q&A·채택 검토안은 기획 중이다. 처음 소개할 때는 [시작 가이드](../../start/)의 읽는 순서와 [3층 설계 PDF](<../../pdfs/core/공주민제(DCA) 3층 설계(2026.01.01.).pdf>)를 참고할 수 있다.

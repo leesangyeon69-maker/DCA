@@ -3,7 +3,4 @@ layout: page
 title: "ngos"
 ---
 
-- 1p 요약
-- Q&A 10개
-- 채택용 MVP
-- 관련 링크: /policy/, /governance/, /debates/point_by_point/
+1쪽 요약·Q&A·채택 검토안은 기획 중이다. 현재 공개된 논의는 [거버넌스](../../governance/)와 [비판·응답](../../debates/)을 참고할 수 있다.

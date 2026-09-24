@@ -3,10 +3,7 @@ layout: page
 title: "확산키트(Kits)"
 ---
 
-기존 정당·시민단체·노동조합·학계·언론이 “부분 채택→확대”할 수 있게 패키지를 제공한다.
+정당·시민단체·노동조합·학계·언론에 맞춘 소개 자료의 구성안을 모았다. 아래 하위 목차는 현재 계획 단계이며 1쪽 요약·Q&A 등의 본문은 아직 작성되지 않았다.
 
-- 정당: [/kits/parties/](/DCA/kits/parties/)
-- 시민단체: [/kits/ngos/](/DCA/kits/ngos/)
-- 노조: [/kits/unions/](/DCA/kits/unions/)
-- 학계: [/kits/academics/](/DCA/kits/academics/)
-- 언론: [/kits/media/](/DCA/kits/media/)
+- [정당](parties/) · [시민단체](ngos/) · [노동조합](unions/)
+- [학계](academics/) · [언론](media/)

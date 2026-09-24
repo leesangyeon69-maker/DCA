@@ -3,9 +3,15 @@ layout: page
 title: "정본(코어)"
 ---
 
-정본(안정판)만 둔다. 논쟁 문서는 /debates/로 분리한다.
+## 핵심 문서
 
-- 용어사전: [/core/glossary.md](/DCA/core/glossary.md)
-- FAQ: [/core/faq.md](/DCA/core/faq.md)
-- 로드맵: [/core/roadmap.md](/DCA/core/roadmap.md)
-- PDF(코어): [/pdfs/core/](/DCA/pdfs/core/)
+1. [공주민제라는 이름의 뜻 (3쪽)](<../pdfs/core/공주민제라는 이름의 뜻(2025.12.26.).pdf>)
+2. [공주민제(DCA) 3층 설계 (17쪽)](<../pdfs/core/공주민제(DCA) 3층 설계(2026.01.01.).pdf>)
+3. [공주민제 선언 (11쪽)](../pdfs/core/manifesto.pdf)
+4. [공주민제 거버넌스에서의 상한 (2쪽)](<../pdfs/core/공주민제 거버넌스에서의 상한(2025.12.27.).pdf>)
+
+## 설명 자료
+
+[용어사전](glossary.md)과 [자주 묻는 질문](faq.md)에서 주요 개념과 쟁점을 짧게 확인할 수 있다. [이행 로드맵](roadmap.md)은 현재 단계만 제시한 간략한 개요다.
+
+[핵심 개념 PDF 전체 목록](../pdfs/core/)

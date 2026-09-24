@@ -12,25 +12,23 @@ title: "공주민제(DCA) 문서저장소"
 
 ---
 
-## 읽는 순서(권장 30~60분)
-1) 시작 가이드: [/start/](/DCA/start/)
-2) 정본(코어): [/core/](/DCA/core/)
-3) 정책모듈: [/policy/](/DCA/policy/)
-4) 비판/반비판: [/debates/](/DCA/debates/)
-5) 조직별 키트: [/kits/](/DCA/kits/)
+## 처음 읽는 순서
+
+1. [공주민제라는 이름의 뜻 (3쪽)](<pdfs/core/공주민제라는 이름의 뜻(2025.12.26.).pdf>)
+2. [공주민제(DCA) 3층 설계 (17쪽)](<pdfs/core/공주민제(DCA) 3층 설계(2026.01.01.).pdf>)
+3. [공주민제 선언 (11쪽)](pdfs/core/manifesto.pdf)
+4. [정책 제안](policy/)과 [비판·응답](debates/)
+
+목적별 경로는 [시작 가이드](start/)에 정리했다.
 
 ---
 
 ## 섹션
-- 정본(코어): [/core/](/DCA/core/)
-- 정책모듈: [/policy/](/DCA/policy/)
-- 거버넌스: [/governance/](/DCA/governance/)
-- 비판/반비판: [/debates/](/DCA/debates/)
-- 확산키트: [/kits/](/DCA/kits/)
-- PDF 자료실: [/pdfs/](/DCA/pdfs/)
-- 리서치: [/research/](/DCA/research/)
+- [핵심 개념](core/) · [정책 제안](policy/) · [거버넌스](governance/)
+- [비판과 응답](debates/) · [리서치](research/) · [PDF 자료실](pdfs/)
+- [확산키트](kits/) · [작업 중인 글](wip/)
 
 ---
 
 ## 변경 이력
-- [/changelog.md](/DCA/changelog.md)
+- [변경 이력](changelog.md)

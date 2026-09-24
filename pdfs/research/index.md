@@ -3,8 +3,8 @@ layout: page
 title: "리서치 PDF"
 ---
 
-<<<<<<< HEAD
-- marxism_renewal_20251214: [marxism_renewal_20251214.pdf](./marxism_renewal_20251214.pdf)
-=======
-- marxism_renewal_20251214: [/research/marxism_renewal_20251214.pdf](/DCA/research/marxism_renewal_20251214.pdf)
->>>>>>> 575012ba3ca34d169bdb1faa65abf25117e67438
+- [플랫폼 자본주의와 지대 수취에 대한 마르크스주의적 분석과 공주민제 관점에서의 한계](<./플랫폼 자본주의와 지대 수취에 대한 마르크스주의적 분석과 공주민제 관점에서의 한계(2026.01.16.).pdf>)
+- [커티스 야빈: 사상과 이론의 심층 분석](<./커티스 야빈_ 사상과 이론의 심층 분석.pdf>)
+- [마르크스주의의 자기갱신과 반동화의 위험](./marxism_renewal_20251214.pdf)
+
+마지막 글은 [비판/반비판 PDF](../debates/)에도 다른 파일명으로 보관된 동일한 문서다.

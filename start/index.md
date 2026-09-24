@@ -3,12 +3,21 @@ layout: page
 title: "시작(START HERE)"
 ---
 
-## 3가지 목적
-1) 개념 이해: core → glossary → roadmap
-2) 정책 검토: policy → governance → kits
-3) 논쟁/검증: debates → point_by_point
+## 개념부터 읽기
 
-- 정본(코어): [/core/](/DCA/core/)
-- 정책모듈: [/policy/](/DCA/policy/)
-- 비판/반비판: [/debates/](/DCA/debates/)
-- 확산키트: [/kits/](/DCA/kits/)
+1. [공주민제라는 이름의 뜻 (3쪽)](<../pdfs/core/공주민제라는 이름의 뜻(2025.12.26.).pdf>)
+2. [공주민제(DCA) 3층 설계 (17쪽)](<../pdfs/core/공주민제(DCA) 3층 설계(2026.01.01.).pdf>)
+3. [공주민제 선언 (11쪽)](../pdfs/core/manifesto.pdf)
+
+## 사례와 제도 검토하기
+
+- [삼성전자 성과급 논쟁과 초과이익의 사회적 귀속](<../policy/삼성전자_초과이익_국민사회지분계정_정책제안(2026.4.18,).pdf>)
+- [국부펀드·국민성장펀드 개선 제안](<../pdfs/policy/한국형 국부펀드·국민성장펀드 추진에 대한 문제제기 및 개선 대안(제안)2025.12.21..pdf>)
+- [정책모듈 목차](../policy/) · [거버넌스 목차](../governance/)
+
+## 비판을 따라 읽기
+
+- [커티스 야빈·기본소득 주장자 관점의 비판과 저자의 응답](../pdfs/debates/)
+- [마르크스주의 관점의 비판과 저자의 응답](../pdfs/debates/)
+
+위 비판문은 저자가 구성한 레드팀 자료다. 전체 목록은 [PDF 자료실](../pdfs/)에 있다.

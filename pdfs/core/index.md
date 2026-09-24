@@ -1,10 +1,13 @@
 ---
 layout: page
-title: "코어 PDF(정본/개념)"
+title: "핵심 개념 PDF"
 ---
 
-<<<<<<< HEAD
-- manifesto: [manifesto.pdf](./manifesto.pdf)
-=======
-- manifesto: [/core/manifesto.pdf](/DCA/core/manifesto.pdf)
->>>>>>> 575012ba3ca34d169bdb1faa65abf25117e67438
+처음 읽는다면 짧은 글부터 시작해 3층 설계와 선언으로 넘어갈 수 있다.
+
+1. [공주민제라는 이름의 뜻 (3쪽)](<./공주민제라는 이름의 뜻(2025.12.26.).pdf>)
+2. [공주민제(DCA) 3층 설계 (17쪽)](<./공주민제(DCA) 3층 설계(2026.01.01.).pdf>)
+3. [공주민제 선언 (11쪽)](./manifesto.pdf)
+4. [공주민제 거버넌스에서의 상한 (2쪽)](<./공주민제 거버넌스에서의 상한(2025.12.27.).pdf>)
+
+같은 PDF가 `core/`에도 보관되어 있다. 여기서는 `pdfs/core/`의 사본을 연결한다.

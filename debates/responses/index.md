@@ -3,6 +3,7 @@ layout: page
 title: "반비판/응답(Responses)"
 ---
 
-- marxist_01_response.md
-- libertarian_01_response.md
-- ubi_01_response.md
+- [커티스 야빈·기본소득 주장자 관점의 비판에 대한 응답](<../../pdfs/debates/2.공주민제(DCA) 비판(커티스 야빈·기본소득 주장자)에 대한 반격- 기술, 분배, 거버넌스의 재정립(2025.01.18.).pdf>)
+- [마르크스주의 관점의 비판에 대한 응답](<../../pdfs/debates/4.공주민제(DCA) 비판(마르크스주의적 관점)에 대한 반격(2025.01.18.).pdf>)
+
+[해당 비판문](../critiques/)을 먼저 읽으면 두 응답의 맥락을 확인할 수 있다.
